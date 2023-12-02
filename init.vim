@@ -58,7 +58,6 @@ Plug 'jiangmiao/auto-pairs'                                   " Auto add paired 
 Plug 'noahfrederick/vim-skeleton'                             " Use a template file when creating new files
 Plug 'ervandew/supertab'                                      " Make tab more useful in triggering Vim omni-complete
 Plug 'tpope/vim-ragtag'                                       " Provide bindings for closing HTML/XML tags
-Plug 'ajh17/VimCompletesMe'
 
 " Extra syntax highlighting and language support
 Plug 'scrooloose/syntastic'
