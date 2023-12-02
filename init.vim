@@ -516,34 +516,6 @@ let g:LanguageClient_serverCommands = {
     \ 'ruby': ['solargraph', 'stdio'],
     \ }
 
-" ----------------------------------------------
-" File template settings
-" ----------------------------------------------
-
-let g:skeleton_replacements_ruby = {}
-
-function! g:skeleton_replacements_ruby.CLASSNAME()
-  let l:basename  = expand('%:t:r')
-  let l:filename  = substitute(l:basename, "_spec", "", "")
-  let l:camelcase = substitute(l:filename, '_\(\l\)', '\u\1', 'g')
-  let l:mixedcase = substitute(l:camelcase, '^.', '\u&', '')
-  return l:mixedcase
-endfunction
-
-let g:skeleton_find_template = {}
-
-function! g:skeleton_find_template.ruby(path)
-  if stridx(a:path, 'spec/') != -1
-    return 'spec.rb'
-  elseif stridx(a:path, '/controllers/') != -1
-    return 'controller.rb'
-  elseif stridx(a:path, '/model/') != -1
-    return 'model.rb'
-  elseif stridx(a:path, '/worker/') != -1
-    return 'worker.rb'
-  endif
-  return ''
-endfunction
 
 " ----------------------------------------------
 " Copy file path details to the system clipboard
