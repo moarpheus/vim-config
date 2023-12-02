@@ -47,7 +47,6 @@ Plug 'tpope/vim-projectionist'                                " Map tools and ac
 Plug 'AndrewRadev/splitjoin.vim'                              " Quick joining or splitting of programming constructs (ie. `if...else...` to `? ... : ...`)
 Plug 'AndrewRadev/switch.vim'                                 " Quickly switch programming constructs between alternate version (ie. Ruby string to symbol)
 Plug 'junegunn/vim-easy-align'                                " Fast alignment of lines based on preset rules
-Plug 'maxbrunsfeld/vim-yankstack'                             " Paste text, then rotate though things yanked before/after
 Plug 'tpope/vim-commentary'                                   " Quick toggle for code commenting
 Plug 'tpope/vim-abolish'                                      " Allow smartcase substitution and search
 Plug 'tpope/vim-surround'                                     " Quick editing or insertion for surrounding characters (ie. quickly add quotes around a line)
@@ -240,13 +239,6 @@ match RedundantSpaces /\s\+$\| \+\ze\t/ "\ze sets end of match so only spaces hi
 " Highlight Non-breaking spaces
 highlight BadSpaces term=standout ctermbg=red guibg=red
 match BadSpaces / \+/
-
-
-" -----------------------------------
-" Initialise Plugins
-" -----------------------------------
-
-call yankstack#setup()
 
 " ----------------------------------------------
 " Command Shortcuts
@@ -447,10 +439,6 @@ nnoremap <silent> <BS> :TmuxNavigateLeft<cr>
 " C-J and C-K to jump down and up between splits
 map <C-j> <C-w>j
 map <C-k> <C-w>k
-
-let g:yankstack_map_keys = 0
-nmap <leader>p <Plug>yankstack_substitute_older_paste
-nmap <leader>P <Plug>yankstack_substitute_newer_paste
 
 " ----------------------------------------------
 " Map Uncommon Filetype for Syntax Highlighting
