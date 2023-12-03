@@ -104,7 +104,7 @@ map , <leader>
 map ,, <leader><leader>
 
 " Set our primary colorscheme. Override this in ~/.vim.local if you want.
-colorscheme solarized
+colorscheme adCode
 
 set autoindent                          " Automatically indent based on syntax detection
 set autowrite                           " Writes on make/shell commands
