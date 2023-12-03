@@ -54,7 +54,6 @@ Plug 'dhruvasagar/vim-table-mode'                             " Add some pretty 
 
 " Autocomplete
 Plug 'jiangmiao/auto-pairs'                                   " Auto add paired characters (and try not to be too annoying about it)
-Plug 'noahfrederick/vim-skeleton'                             " Use a template file when creating new files
 Plug 'ervandew/supertab'                                      " Make tab more useful in triggering Vim omni-complete
 Plug 'tpope/vim-ragtag'                                       " Provide bindings for closing HTML/XML tags
 
