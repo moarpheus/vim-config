@@ -56,6 +56,7 @@ Plug 'dhruvasagar/vim-table-mode'                             " Add some pretty 
 Plug 'jiangmiao/auto-pairs'                                   " Auto add paired characters (and try not to be too annoying about it)
 Plug 'ervandew/supertab'                                      " Make tab more useful in triggering Vim omni-complete
 Plug 'tpope/vim-ragtag'                                       " Provide bindings for closing HTML/XML tags
+Plug 'neoclide/coc.nvim', {'branch': 'release'}               " Completion engine and languageserver
 
 " Extra syntax highlighting and language support
 Plug 'scrooloose/syntastic'
