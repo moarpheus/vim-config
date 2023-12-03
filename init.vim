@@ -31,7 +31,6 @@ else
   Plug 'ctrlpvim/ctrlp.vim'                                     " Really powerful fuzzy finder for file names
 end
 Plug 'mileszs/ack.vim'                                       " Add better searching with ag
-Plug 'brookhong/ag.vim'                                       " Add better searching with ag
 Plug 'dyng/ctrlsf.vim'                                        " Aysnc search for text in all files
 Plug 'scrooloose/nerdtree'                                    " Visualise the project directory and make it easy to navigate
 Plug 'tpope/vim-unimpaired'                                   " Extra bindings for common buffer navigation
@@ -69,7 +68,6 @@ Plug 'janko-m/vim-test'                                       " Add test running
 " Ruby
 Plug 'tpope/vim-endwise'                                      " Automatically end code blocks as inserted
 Plug 'ecomba/vim-ruby-refactoring',    {'for': 'ruby'}        " Extra Ruby refactoring tools
-Plug 'vim-scripts/rubycomplete.vim',   {'for': 'ruby'}        " Extend OmniComplete with live evaluated Ruby
 
 " Elixir
 Plug 'avdgaag/vim-phoenix',            {'for': 'elixir'}      " Add Projectionist, Dispatch and Mix integrations for Phoenix projects
