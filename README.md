@@ -1,5 +1,4 @@
 An awesome Vim config for development, slow roasted with a Ruby twist and a shot of web-dev.
-**Note** `nvim` support is better on the `nvim` branch, if that's more your cup of tea! ☕
 
 # Installing
 Assuming you already have vim, just run:
